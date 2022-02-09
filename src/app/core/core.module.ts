@@ -16,8 +16,10 @@ import { RouterModule } from '@angular/router';
     RouterModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
-    AngularFireDatabaseModule,
+    AngularFireDatabaseModule
   ],
-  exports: [HeaderComponent],
+  exports: [
+    HeaderComponent
+  ]
 })
-export class CoreModule {}
+export class CoreModule { }
