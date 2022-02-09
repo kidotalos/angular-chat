@@ -1,6 +1,7 @@
 import { User } from './user';
 
 export class Comment {
+
   user: User;
   message: string;
   date: number;
@@ -15,4 +16,5 @@ export class Comment {
       this.key = value.key;
     }
   }
+
 }
