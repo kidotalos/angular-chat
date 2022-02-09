@@ -1,4 +1,7 @@
 {
+  "projects": {
+    "angular-chat": "angular-chat-ebe01"
+  },
   "targets": {
     "angular-chat-ebe01": {
       "hosting": {
